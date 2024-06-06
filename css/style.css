@@ -1,0 +1,43 @@
+#booking-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+#booking-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+#booking-form input[type="text"],
+#booking-form input[type="email"],
+#booking-form input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+#booking-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+#booking-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+#booking-result {
+    margin-top: 20px;
+    color: #fff;
+}
+.ui-datepicker-unselectable .ui-state-disabled {
+    background: #ff9999 !important;
+    border: 1px solid #ff9999 !important;
+    color: #555555 !important;
+    cursor: not-allowed !important;
+}
+
+
+.ui-state-default, .ui-widget-content .ui-state-default {
+    background-color: red !important;
+}
