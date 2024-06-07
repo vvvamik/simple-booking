@@ -54,6 +54,7 @@ jQuery(document).ready(function($) {
             $('#booking-result').html(response);
             // Refresh dates in case the booking was successful
             if(response.indexOf('úspěšně vytvořena') !== -1) {
+                $('#booking-form')[0].reset(); // Empty form after successful submission
                 $.ajax({
                     url: ajax_object.ajax_url,
                     data: { action: 'simple_booking_get_booked_dates' },
