@@ -2,7 +2,7 @@
 Contributors: [vvvamik]
 Tags: rezervace, formulář, booking, form, WordPress
 Testováno až do: [6.5.3]
-Stabilní verze: 1.0
+Stabilní verze: 1.2
 Licence: GPL-2.0+
 Licence URI: http://www.gnu.org/licenses/gpl-2.0.txt
 
@@ -18,10 +18,16 @@ Simple booking form je jednoduchý plugin pro WordPress, který umožňuje uživ
 == Použití ==
 
 Po aktivaci pluginu můžete vložit rezervační formulář do vašich stránek pomocí následujícího kódu:
-**[simple_booking_form]**
+[simple_booking_form]
 
 Tento kód vloží rezervační formulář, který umožňuje uživatelům vybrat datum příjezdu a odjezdu, zadat své jméno, email a telefon. Po odeslání formuláře bude rezervace zpracována a uživatel obdrží potvrzovací email.
 
 == Licence ==
 
 Tento plugin je distribuován pod licencí GPL-2.0+.
+
+
+== Changelog ==
+
+= 1.2 - 09-06-2024 =
+Přidaný přehled a možnost správy rezervací v administraci, položka Rezervace.
