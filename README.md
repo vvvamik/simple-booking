@@ -20,7 +20,7 @@ Simple booking form je jednoduchý plugin pro WordPress, který umožňuje uživ
 Po aktivaci pluginu můžete vložit rezervační formulář do vašich stránek pomocí následujícího kódu:
 [simple_booking_form]
 
-Tento kód vloží rezervační formulář, který umožňuje uživatelům vybrat datum příjezdu a odjezdu, zadat své jméno, email a telefon. Po odeslání formuláře bude rezervace zpracována a uživatel obdrží potvrzovací email.
+Po odeslání formuláře bude rezervace zpracována a uživatel obdrží potvrzovací email.
 
 == Licence ==
 
